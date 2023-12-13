@@ -11,14 +11,18 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
+    
+    var webViewWindowController: WebViewWindowController?
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        webViewWindowController = WebViewWindowController(windowNibName: "WebViewWindowController")
+        webViewWindowController?.showWindow(self)
+        
+        webViewWindowController?.setUsernameInWebView(username: "Tejas")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
     }
 
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {

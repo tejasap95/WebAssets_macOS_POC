@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5549DD4E2B28F96500E1B7EA /* login-page in Resources */ = {isa = PBXBuildFile; fileRef = 5549DD4D2B28F96500E1B7EA /* login-page */; };
 		55957CB82B26C7DE00FDCB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55957CB72B26C7DE00FDCB41 /* AppDelegate.swift */; };
 		55957CBA2B26C7E000FDCB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55957CB92B26C7E000FDCB41 /* Assets.xcassets */; };
 		55957CBD2B26C7E000FDCB41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55957CBB2B26C7E000FDCB41 /* MainMenu.xib */; };
 		55957CC82B26C7E000FDCB41 /* _Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55957CC72B26C7E000FDCB41 /* _Tests.swift */; };
 		55957CD22B26C7E000FDCB41 /* _UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55957CD12B26C7E000FDCB41 /* _UITests.swift */; };
 		55957CD42B26C7E000FDCB41 /* _UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55957CD32B26C7E000FDCB41 /* _UITestsLaunchTests.swift */; };
+		55957CE12B26CC0000FDCB41 /* WebViewWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55957CE02B26CC0000FDCB41 /* WebViewWindowController.xib */; };
+		55957CE32B26CC4E00FDCB41 /* WebViewWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55957CE22B26CC4E00FDCB41 /* WebViewWindowController.swift */; };
+		55957CEB2B2784A200FDCB41 /* site-resources in Resources */ = {isa = PBXBuildFile; fileRef = 55957CEA2B2784A200FDCB41 /* site-resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55957CB42B26C7DE00FDCB41 /* 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5549DD4D2B28F96500E1B7EA /* login-page */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "login-page"; path = "../../../Downloads/login-page"; sourceTree = "<group>"; };
+		55957CB42B26C7DE00FDCB41 /* WebAssets_macOS_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAssets_macOS_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55957CB72B26C7DE00FDCB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55957CB92B26C7E000FDCB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55957CBC2B26C7E000FDCB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55957CBE2B26C7E000FDCB41 /* _.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _.entitlements; sourceTree = "<group>"; };
-		55957CC32B26C7E000FDCB41 /* 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55957CC32B26C7E000FDCB41 /* WebAssets_macOS_POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebAssets_macOS_POCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55957CC72B26C7E000FDCB41 /* _Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Tests.swift; sourceTree = "<group>"; };
-		55957CCD2B26C7E000FDCB41 /* 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55957CCD2B26C7E000FDCB41 /* WebAssets_macOS_POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebAssets_macOS_POCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55957CD12B26C7E000FDCB41 /* _UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UITests.swift; sourceTree = "<group>"; };
 		55957CD32B26C7E000FDCB41 /* _UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55957CE02B26CC0000FDCB41 /* WebViewWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewWindowController.xib; sourceTree = "<group>"; };
+		55957CE22B26CC4E00FDCB41 /* WebViewWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWindowController.swift; sourceTree = "<group>"; };
+		55957CE82B26F7CE00FDCB41 /* --Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "--Info.plist"; sourceTree = SOURCE_ROOT; };
+		55957CE92B26F96600FDCB41 /* 3Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 3Debug.entitlements; sourceTree = "<group>"; };
+		55957CEA2B2784A200FDCB41 /* site-resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "site-resources"; path = "../../../../../Volumes/workplace/NativeClient/src/PhotonNativeClientDownloadInfrastructure/packaging_additional_published_artifacts/site-resources"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +93,9 @@
 		55957CB52B26C7DE00FDCB41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55957CB42B26C7DE00FDCB41 /* 3.app */,
-				55957CC32B26C7E000FDCB41 /* 3Tests.xctest */,
-				55957CCD2B26C7E000FDCB41 /* 3UITests.xctest */,
+				55957CB42B26C7DE00FDCB41 /* WebAssets_macOS_POC.app */,
+				55957CC32B26C7E000FDCB41 /* WebAssets_macOS_POCTests.xctest */,
+				55957CCD2B26C7E000FDCB41 /* WebAssets_macOS_POCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,10 +103,16 @@
 		55957CB62B26C7DE00FDCB41 /* 3 */ = {
 			isa = PBXGroup;
 			children = (
+				5549DD4D2B28F96500E1B7EA /* login-page */,
+				55957CEA2B2784A200FDCB41 /* site-resources */,
+				55957CE92B26F96600FDCB41 /* 3Debug.entitlements */,
+				55957CE82B26F7CE00FDCB41 /* --Info.plist */,
 				55957CB72B26C7DE00FDCB41 /* AppDelegate.swift */,
 				55957CB92B26C7E000FDCB41 /* Assets.xcassets */,
 				55957CBB2B26C7E000FDCB41 /* MainMenu.xib */,
 				55957CBE2B26C7E000FDCB41 /* _.entitlements */,
+				55957CE02B26CC0000FDCB41 /* WebViewWindowController.xib */,
+				55957CE22B26CC4E00FDCB41 /* WebViewWindowController.swift */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -121,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55957CB32B26C7DE00FDCB41 /* 3 */ = {
+		55957CB32B26C7DE00FDCB41 /* WebAssets_macOS_POC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55957CD72B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "3" */;
+			buildConfigurationList = 55957CD72B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "WebAssets_macOS_POC" */;
 			buildPhases = (
 				55957CB02B26C7DE00FDCB41 /* Sources */,
 				55957CB12B26C7DE00FDCB41 /* Frameworks */,
@@ -133,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = 3;
+			name = WebAssets_macOS_POC;
 			productName = 3;
-			productReference = 55957CB42B26C7DE00FDCB41 /* 3.app */;
+			productReference = 55957CB42B26C7DE00FDCB41 /* WebAssets_macOS_POC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55957CC22B26C7E000FDCB41 /* 3Tests */ = {
+		55957CC22B26C7E000FDCB41 /* WebAssets_macOS_POCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55957CDA2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "3Tests" */;
+			buildConfigurationList = 55957CDA2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "WebAssets_macOS_POCTests" */;
 			buildPhases = (
 				55957CBF2B26C7E000FDCB41 /* Sources */,
 				55957CC02B26C7E000FDCB41 /* Frameworks */,
@@ -151,14 +167,14 @@
 			dependencies = (
 				55957CC52B26C7E000FDCB41 /* PBXTargetDependency */,
 			);
-			name = 3Tests;
+			name = WebAssets_macOS_POCTests;
 			productName = 3Tests;
-			productReference = 55957CC32B26C7E000FDCB41 /* 3Tests.xctest */;
+			productReference = 55957CC32B26C7E000FDCB41 /* WebAssets_macOS_POCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		55957CCC2B26C7E000FDCB41 /* 3UITests */ = {
+		55957CCC2B26C7E000FDCB41 /* WebAssets_macOS_POCUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55957CDD2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "3UITests" */;
+			buildConfigurationList = 55957CDD2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "WebAssets_macOS_POCUITests" */;
 			buildPhases = (
 				55957CC92B26C7E000FDCB41 /* Sources */,
 				55957CCA2B26C7E000FDCB41 /* Frameworks */,
@@ -169,9 +185,9 @@
 			dependencies = (
 				55957CCF2B26C7E000FDCB41 /* PBXTargetDependency */,
 			);
-			name = 3UITests;
+			name = WebAssets_macOS_POCUITests;
 			productName = 3UITests;
-			productReference = 55957CCD2B26C7E000FDCB41 /* 3UITests.xctest */;
+			productReference = 55957CCD2B26C7E000FDCB41 /* WebAssets_macOS_POCUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55957CAF2B26C7DE00FDCB41 /* Build configuration list for PBXProject "3" */;
+			buildConfigurationList = 55957CAF2B26C7DE00FDCB41 /* Build configuration list for PBXProject "WebAssets_macOS_POC" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -210,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55957CB32B26C7DE00FDCB41 /* 3 */,
-				55957CC22B26C7E000FDCB41 /* 3Tests */,
-				55957CCC2B26C7E000FDCB41 /* 3UITests */,
+				55957CB32B26C7DE00FDCB41 /* WebAssets_macOS_POC */,
+				55957CC22B26C7E000FDCB41 /* WebAssets_macOS_POCTests */,
+				55957CCC2B26C7E000FDCB41 /* WebAssets_macOS_POCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,8 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55957CE12B26CC0000FDCB41 /* WebViewWindowController.xib in Resources */,
 				55957CBA2B26C7E000FDCB41 /* Assets.xcassets in Resources */,
+				5549DD4E2B28F96500E1B7EA /* login-page in Resources */,
 				55957CBD2B26C7E000FDCB41 /* MainMenu.xib in Resources */,
+				55957CEB2B2784A200FDCB41 /* site-resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55957CB82B26C7DE00FDCB41 /* AppDelegate.swift in Sources */,
+				55957CE32B26CC4E00FDCB41 /* WebViewWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		55957CC52B26C7E000FDCB41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55957CB32B26C7DE00FDCB41 /* 3 */;
+			target = 55957CB32B26C7DE00FDCB41 /* WebAssets_macOS_POC */;
 			targetProxy = 55957CC42B26C7E000FDCB41 /* PBXContainerItemProxy */;
 		};
 		55957CCF2B26C7E000FDCB41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55957CB32B26C7DE00FDCB41 /* 3 */;
+			target = 55957CB32B26C7DE00FDCB41 /* WebAssets_macOS_POC */;
 			targetProxy = 55957CCE2B26C7E000FDCB41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,11 +439,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = 3/_.entitlements;
+				CODE_SIGN_ENTITLEMENTS = 3/3Debug.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -445,10 +467,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 3/_.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -478,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebAssets_macOS_POC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WebAssets_macOS_POC";
 			};
 			name = Debug;
 		};
@@ -496,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebAssets_macOS_POC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WebAssets_macOS_POC";
 			};
 			name = Release;
 		};
@@ -535,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55957CAF2B26C7DE00FDCB41 /* Build configuration list for PBXProject "3" */ = {
+		55957CAF2B26C7DE00FDCB41 /* Build configuration list for PBXProject "WebAssets_macOS_POC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55957CD52B26C7E000FDCB41 /* Debug */,
@@ -544,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55957CD72B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "3" */ = {
+		55957CD72B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "WebAssets_macOS_POC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55957CD82B26C7E000FDCB41 /* Debug */,
@@ -553,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55957CDA2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "3Tests" */ = {
+		55957CDA2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "WebAssets_macOS_POCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55957CDB2B26C7E000FDCB41 /* Debug */,
@@ -562,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55957CDD2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "3UITests" */ = {
+		55957CDD2B26C7E000FDCB41 /* Build configuration list for PBXNativeTarget "WebAssets_macOS_POCUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55957CDE2B26C7E000FDCB41 /* Debug */,
